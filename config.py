@@ -35,9 +35,8 @@ UPSTREAM_REPO = getenv(
     "https://github.com/legendaditya03/PusuXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
-)  # Fill this variable if your upstream repository is private
+GIT_TOKEN = getenv("GIT_TOKEN", None) 
+# Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/pusu_world01")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/pusu_world")
@@ -47,8 +46,8 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "96a12f2fd4334f848e8acbcb6e697f29")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "f6ecf8d7e46944a2b5ebb0c263d9e936")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", 96a12f2fd4334f848e8acbcb6e697f29)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", f6ecf8d7e46944a2b5ebb0c263d9e936)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
