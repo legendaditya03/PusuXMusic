@@ -29,7 +29,11 @@ from config import BANNED_USERS, lyrical
     filters.command(
         [
             "play",
+            "pusu",
+            "susu",
             "vplay",
+            "vpusu",
+            "vsusu",
             "cplay",
             "cvplay",
             "playforce",
